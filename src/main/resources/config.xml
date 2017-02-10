@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+
+	<entry key="file_extensions">txt,text</entry>
+    <entry key="words_threshold">1000</entry>
+	<entry key="max_threads">10</entry>
+	<entry key="filter_words_by"> </entry>
+
+</properties>

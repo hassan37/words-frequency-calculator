@@ -1,15 +1,21 @@
-*.class
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
 
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
+# Folder config file
+Desktop.ini
 
-# Package Files #
-*.jar
-*.war
-*.ear
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Windows shortcuts
+*.lnk
 
 # =========================
 # Operating System Files
@@ -40,24 +46,16 @@ Network Trash Folder
 Temporary Items
 .apdisk
 
-# Windows
-# =========================
+*.classpath
+*.project
+*.iml
 
-# Windows image file caches
-Thumbs.db
-ehthumbs.db
+# Ignore Exlipse Project Specific Files
+/.settings/
 
-# Folder config file
-Desktop.ini
+# Ignore Maven Target Build
+/target/
 
-# Recycle Bin used on file shares
-$RECYCLE.BIN/
-
-# Windows Installer files
-*.cab
-*.msi
-*.msm
-*.msp
-
-# Windows shortcuts
-*.lnk
+# Ignore IntelliJ Idea Folders
+/.idea/
+src/main/java/com/hassan/downloader/Temp.java
